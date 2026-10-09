@@ -1,0 +1,64 @@
+/* Basic reset and font settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8; /* Soft light background */
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container to neatly hold our content */
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 480px;
+  width: 90%;
+}
+
+/* Heading style */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #1e293b;
+}
+
+/* Paragraph sentence */
+#message {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Blue button */
+#actionBtn {
+  background-color: #007bff; /* Vibrant blue */
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Button hover and active states */
+#actionBtn:hover {
+  background-color: #0056b3;
+}
+
+#actionBtn:active {
+  transform: scale(0.98);
+}
